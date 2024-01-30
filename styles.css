@@ -1,0 +1,28 @@
+#canvas {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: black;
+}
+
+#box {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(68, 0, 255);
+    top: 0px;
+    left: 0px;
+}
+
+.startButton{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: 0;
+    line-height: 2.5;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+}
