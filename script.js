@@ -18,10 +18,14 @@ let interval = setInterval(() =>{
 //El que hizo el profe
 //const box = document.getElementById('box')
 let boxTop = 0
+let botTopLeft = 0
 
 setInterval(() => {
     boxTop += 5
     box.style.top = `${boxTop}px`
 }, 200)
 
-
+setInterval(() => {
+    boxTop += 5
+    box.style.left= `${boxTop}px`
+}, 200)
