@@ -1,6 +1,6 @@
 #canvas {
     position: relative;
-    width: 800px;
+    width: 600px;
     height: 600px;
     border: 1px solid black;
     margin: auto;
@@ -14,6 +14,15 @@
     background-color: rgb(68, 0, 255);
     top: 0px;
     left: 0px;
+}
+
+#box2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(204, 0, 255);
+    top: 0px;
+    right: 0px;
 }
 
 .startButton{
